@@ -1,4 +1,4 @@
-package com.photoshare;
+package com.instamodoki;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.photoshare;
+package com.instamodoki;
 
 import com.netflix.graphql.dgs.DgsComponent;
 import com.netflix.graphql.dgs.DgsMutation;

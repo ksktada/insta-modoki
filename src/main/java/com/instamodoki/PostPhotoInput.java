@@ -1,4 +1,4 @@
-package com.photoshare;
+package com.instamodoki;
 
 public class PostPhotoInput {
     private String name;

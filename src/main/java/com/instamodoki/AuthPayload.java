@@ -1,6 +1,4 @@
-package com.photoshare;
-
-import com.photoshare.User;
+package com.instamodoki;
 
 public class AuthPayload {
     private final String token;

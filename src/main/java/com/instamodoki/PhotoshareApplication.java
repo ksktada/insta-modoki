@@ -1,4 +1,4 @@
-package com.photoshare;
+package com.instamodoki;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
