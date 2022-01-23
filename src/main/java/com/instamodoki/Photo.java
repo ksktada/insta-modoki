@@ -1,9 +1,7 @@
-package com.photoshare;
+package com.instamodoki;
 
-import java.util.Date;
 import java.util.List;
 import java.time.OffsetDateTime;
-import com.photoshare.User;
 
 public class Photo {
     private final String id;
