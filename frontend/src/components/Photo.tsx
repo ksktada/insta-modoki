@@ -1,8 +1,10 @@
 import React from 'react';
 
-function Photo() {
+function Photo({photoData}: {photoData: string}) {
     return (
-        <div></div>
+        <div>
+            <img src={photoData} alt=''></img>
+        </div>
     )
 }
 

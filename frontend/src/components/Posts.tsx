@@ -1,8 +1,13 @@
 import React from 'react';
+import Photo from './Photo';
 
-function Posts() {
+function Posts(photoList: Array<string>) {
     return (
-        <div></div>
+        <div>
+            {photoList.map((photoData: string, i: number) => (
+                <Photo photoData={photoData}></Photo>
+            ))}
+        </div>
     )
 }
 
