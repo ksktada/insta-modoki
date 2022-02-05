@@ -2,7 +2,10 @@ import React from 'react';
 
 function Header() {
     return (
-        <div></div>
+        <div>
+            <div id='logo'></div>
+            <div id='profile'></div>
+        </div>
     )
 }
 
