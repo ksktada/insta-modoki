@@ -8,7 +8,7 @@ type Props = {
 const Photo: React.FC<Props> = (props) => {
     return (
         <li>
-            <img src='' alt={photoData}></img>
+            <img src='' alt={props.photoData}></img>
         </li>
     )
 } 
