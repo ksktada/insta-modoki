@@ -1,14 +1,18 @@
 import React from 'react';
 import Photo from './Photo';
 
-function Posts({photoList}: {photoList: string[]}) {
+type Props = {
+    photoList: string[]
+}
+
+const Posts: React.FC<Props> = (props) => {
     return (
         <ul>
-            {photoList.map((photoData: string, i: number) => (
+            {props.photoList.map((photoData: string, i: number) => (
                 <Photo photoData={photoData}></Photo>
             ))}
         </ul>
-    )
+    )  
 }
 
 export default Posts;
