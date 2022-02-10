@@ -1,10 +1,6 @@
 import React from 'react';
 
-type Props = {
-    selected: boolean
-}
-
-const TabList: React.FC<Props> = (props) => {
+const TabList: React.VFC = () => {
     return (
         <div>
         </div>
